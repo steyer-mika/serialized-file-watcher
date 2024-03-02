@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SerializedFileWatcher
 {
-    public partial class Form1 : Form
+    public partial class FileWatcherForm : Form
     {
-        public Form1()
+        public FileWatcherForm()
         {
             InitializeComponent();
+        }
+
+        private void FileWatcherForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
