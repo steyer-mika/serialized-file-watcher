@@ -18,7 +18,7 @@ namespace SerializedFileWatcher
     [Serializable()]
     public class FileWatcherConfig: ISerializable
     {
-        private string watchPath = String.Empty;
+        private string watchPath = "C:\\file-watcher-test";
 
         private bool includeSubdirectories = false;
 
